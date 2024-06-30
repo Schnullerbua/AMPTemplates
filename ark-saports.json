@@ -14,10 +14,17 @@
         "Description": "Port for remote control API HTTP server"
     },
     {
+        "Protocol": "UDP",
+        "Port": 27020,
+        "Ref": "QUERYPort",
+        "Name": "QUERY Port",
+        "Description": "Port for Server Data (for Steam's server browser only)"
+    },
+    {
         "Protocol": "TCP",
         "Port": 27020,
         "Ref": "RCONPort",
         "Name": "RCON Port",
-        "Description": "Port for RCON traffic"
+        "Description": "Port for RCON traffic, remote port optional"
     }
 ]
